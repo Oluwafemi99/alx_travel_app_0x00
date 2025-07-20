@@ -47,7 +47,7 @@ class ListingSerializer(serializers.ModelSerializer):
     class Meta:
         model = Listing
         fields = [
-            'listing_id', 'host', 'host_id', 'title', 'description', 
+            'listing_id', 'host', 'host_id', 'title', 'description'
             'location', 'price_per_night', 'amenities', 'property_type',
             'max_guests', 'bedrooms', 'bathrooms', 'availability',
             'created_at', 'updated_at', 'reviews', 'average_rating',
